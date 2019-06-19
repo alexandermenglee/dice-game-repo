@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Dice Game</title>
+    <link rel='stylesheet' href='styles.css'>
+    <link href="https://fonts.googleapis.com/css?family=Cantarell&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <h1>Welcome To Xander's Random Dice Game!</h1>
+    <div>
+      <p>
+        Beat your opponent's score! The closer to 32 you are, the better. If you score 32, you win!
+      </p>
+    </div>
+    <!-- oppoents score goes here -->
+    <div>
+      <h3>Opponent's Score</h3>
+      <span id='opponent-score'>0</span>
+    </div>
+    <!-- Player information -->
+    <div>
+      <h3>Roll</h3>
+      <span id='rolled'></span>
+    </div>
+    <div>
+      <h3>Your Score</h3>
+      <span id='current-score''>0</span>
+    </div><br/>
+    <div>
+    <div id='result'></div>  
+      <button id='hit'>Hit</button>
+      <button id='compare'>Compare Values</button>
+    </div>
+  </body>
+  <script src='app.js'></script>
+</html>
